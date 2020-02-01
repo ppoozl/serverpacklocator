@@ -51,12 +51,12 @@ test {
     useJUnitPlatform()
 }
 
-ext.forge_version = "28.1.87"
+ext.forge_version = "31.0.14"
 
 ext.sharedManifest = manifest {
     attributes(['Class-Path': 'forge.jar',
      'Main-Class': 'net.minecraftforge.server.ServerMain',
-     'ServerLaunchArgs': "--gameDir . --launchTarget fmlserver --fml.forgeVersion ${forge_version} --fml.mcpVersion 20190829.143755 --fml.mcVersion 1.14.4 --fml.forgeGroup net.minecraftforge"
+     'ServerLaunchArgs': "--gameDir . --launchTarget fmlserver --fml.forgeVersion ${forge_version} --fml.mcpVersion 20200122.131323 --fml.mcVersion 1.15.2 --fml.forgeGroup net.minecraftforge"
     ],
     )
     attributes(
