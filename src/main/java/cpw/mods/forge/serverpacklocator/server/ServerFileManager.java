@@ -106,7 +106,7 @@ public class ServerFileManager {
                 .map(ServerManifest.ModFileData::new)
                 .collect(Collectors.toList());
         manifest.addAll(modFileDataList);
-        manifest.setForgeVersion("1.14.4-28.1.45");
+        manifest.setForgeVersion("1.15.2-31.0.14");
         this.manifest = manifest;
         this.manifest.save(this.manifestFile);
         this.modList = Stream.concat(nonModFileData.stream(), modFileDataList.stream())
